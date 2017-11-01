@@ -4,7 +4,7 @@ Workshop project done for ***React.js*** course from ***19 Jun 2017*** to ***16 
 
 **MDB** is short for **"Movie Database"**. This is a sample (and simple :wink:) application about movies - something like IMDB or RottenTomatoes.
 
-###Initial setup for running the applications
+#### Initial setup for running the applications
  Open a **cmd** or **terminal** window **in the root directory of the project** and type:
  ```
 npm install
@@ -12,7 +12,7 @@ npm install -g bower
 bower install
 ```
 
-###Steps to start the application
+#### Steps to start the application
 1. This project is using MongoDB as database so you need to start it.
 2. To **compile, transpile** and then **bundle** app's **client-side**, open a new cmd in **project's root** and type:
  ```
