@@ -26,4 +26,8 @@ bower install
  npm run start
  ```
   - There also an option to run it with **"npm run *watch*"** command but you will need to install [**nodemon**](https://www.npmjs.com/package/nodemon) before that. With this the application will listen for changes and restart automatically
+4. Open a browser and type the **URL**:
+```
+http://localhost:3000/
+```
 

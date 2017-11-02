@@ -2,7 +2,6 @@ import alt from '../alt'
 
 class FormActions {
   constructor () {
-    // TODO: Do it in one handle functions with fields[name] = value - kenov's example
     this.generateActions(
       'handleUsernameChange',
       'handlePasswordChange',

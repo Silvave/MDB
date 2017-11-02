@@ -1926,7 +1926,7 @@ function supportsHistory() {
   if ((ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) && ua.indexOf('Mobile Safari') !== -1 && ua.indexOf('Chrome') === -1 && ua.indexOf('Windows Phone') === -1) {
     return false;
   }
-  // FIXME: Work around our browser history not working correctly on Chrome
+
   // iOS: https://github.com/rackt/react-router/issues/2565
   if (ua.indexOf('CriOS') !== -1) {
     return false;
@@ -3012,7 +3012,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var FormActions = function FormActions() {
   _classCallCheck(this, FormActions);
 
-  // TODO: Do it in one handle functions with fields[name] = value - kenov's example
   this.generateActions('handleUsernameChange', 'handlePasswordChange', 'handleConfirmedPasswordChange', 'handleFirstNameChange', 'handleLastNameChange', 'handleAgeChange', 'handleGenderChange', 'usernameValidationFail', 'passwordValidationFail', 'unauthorizedAccessAttempt', 'handleCommentChange', 'commentValidationFail', 'handleScoreChange', 'scoreValidationFail');
 };
 
